@@ -21,7 +21,8 @@ function sendBotMessage(vCount) {
 
 function findAd(){
 	document.getElementsByClassName('pin-search-btn')[0].click();
-	console.log("Refreshing slots!")
+	console.log("Refreshing slots!");
+	
 	setTimeout(() => { 
 	var els = document.getElementsByClassName('vaccine-box vaccine-box1 vaccine-padding');
 	for(let el of els) {
