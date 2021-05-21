@@ -21,13 +21,13 @@ function sendBotMessage(vCount) {
 
 function findAd(){
 	document.getElementsByClassName('pin-search-btn')[0].click();
-	
+	console.log("Refreshing slots!")
 	setTimeout(() => { 
 	var els = document.getElementsByClassName('vaccine-box vaccine-box1 vaccine-padding');
 	for(let el of els) {
 		var anchor = el.getElementsByTagName('a')[0];
 		var msg = anchor.textContent.trim();
-		if(msg == "Booked" || msg != "NA"){
+		if(msg != "Booked" && msg != "NA"){
 			sendBotMessage(anchor.textContent);
 			console.log("notified!");
 		}
