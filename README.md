@@ -3,6 +3,7 @@
 # Intro:
 The code runs inside a web browser(on your PC ofcourse) and notifies via Telegram when vaccine is available at the given PINCODE.  
 
+How long it takes to notify: As soon as any slot opens up, notification will be delivered within a min.
 
 Who can set this up: Anyone who knows how to handle a PC/laptop and use Telegram App
 
