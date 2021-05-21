@@ -39,14 +39,14 @@ Time to setup: ~10 Mins (< 1 Min for any Speedster or Superman :wink:)
 
 Your code is ready!
   
-## Last steps to glory
+## Final steps to glory
 - Open Google Chrome
 - Go to cowin website: [Cowin](https://www.cowin.gov.in/home)
 - Enter your pincode and hit search. Select 18+. If all slots for the current week are Booked(i.e not even a single slot is "NA"), then keep on moving to the next week untill you encounter a slot with "NA" label or untill you get this message "No Vaccination center is available for booking."
 - Once you are done, press `ctrl+shift+I` (or google how to open console in Google Chrome)
 - Click on **console** label on the top and paste the code prepared earlier
 - [Optional Step]: If you want to test whether your Telegram is receiving the messages or not, add this code on line 25: `sendBotMessage('testing telegram!');`.  
-  Note: If you follow this step, then once you are done with testing Telegram(i.e next step), please remember to close your browser and perform the "Last steps to glory" from the beginning.
+  Note: If you follow this step, then once you are done with testing Telegram(i.e next step), please remember to close your browser and perform the "Final steps to glory" from the beginning.
 - Hit Enter. You should see `Refreshing slots!` message at the interval of 1 min.
 
 
