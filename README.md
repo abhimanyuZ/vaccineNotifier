@@ -28,7 +28,7 @@ Time to setup: ~10 Mins (< 1 Min for any Speedster or Superman :wink:)
 - Copy the token (let's call it YOUR_TOKEN)
 
 ### Get Chat ID
-- Search for your bot(type **bot name** in Search bar) and `start` the chat with it (Don't start spamming with "I love you" messages, yet! :joy:)
+- Search for your bot(by using the **bot name** you provided earlier) and `start` the chat with it (Don't start spamming with "I love you" messages, yet! :joy:)
 - Sustitute the value of YOUR_TOKEN in this link: `https://api.telegram.org/botYOUR_TOKEN/getUpdates` , then open this link
 - Look for a line like : `"chat" : {"id": YOUR_CHAT_ID, ........ }` , copy the numeric value of YOUR_CHAT_ID
 
