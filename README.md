@@ -45,7 +45,7 @@ Your code is ready!
 - Enter your pincode and hit search. Select 18+. If all slots for the current week are Booked(i.e not even a single slot is "NA"), then keep on moving to the next week untill you encounter a slot with "NA" label or untill you get this message "No Vaccination center is available for booking."
 - Once you are done, press `ctrl+shift+I` (or google how to open console in Google Chrome)
 - Click on **console** label on the top and paste the code prepared earlier
-- [Optional Step]: If you want to test whether your Telegram is receiving the messages or not, add this code on line 25: `sendBotMessage('testing telegram!');`.  
+- [Optional Step]: If you want to test whether your Telegram is receiving the messages or not, add this code on line 25: `sendBotMessage('testing telegram No ');`.  
   Note: If you follow this step, then once you are done with testing Telegram(i.e next step), please remember to close your browser and perform the "Final steps to glory" from the beginning.
 - Hit Enter. You should see `Refreshing slots!` message at the interval of 1 min.
 
