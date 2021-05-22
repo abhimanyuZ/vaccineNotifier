@@ -12,13 +12,6 @@ function sendBotMessage(vCount) {
       request.send(JSON.stringify(params));
 }
 
-//for desktop notification: don't modify!
-// function showNotification() {
-//    const notification = new Notification("New message incoming", {
-//       body: "Hi there. Vaccine is Available!"
-//    })
-// }
-
 function findAd(){
 	document.getElementsByClassName('pin-search-btn')[0].click();
 	console.log("Refreshing slots!");
@@ -35,4 +28,4 @@ function findAd(){
 	}
 	}, 5000);
 }
-setInterval(findAd,60000);
+setInterval(findAd,30000);
