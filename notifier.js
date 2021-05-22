@@ -28,4 +28,5 @@ function findAd(){
 	}
 	}, 5000);
 }
-setInterval(findAd,30000);
+//30000 -> max delay in notification in milli seconds
+setInterval(findAd,30000); 
