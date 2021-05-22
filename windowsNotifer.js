@@ -1,4 +1,5 @@
 //this notifier generates windows system notification on top of telegram message
+//for windows notification to work, allow notification must be enabled in site settings
 
 function sendBotMessage() {
     var request = new XMLHttpRequest();
